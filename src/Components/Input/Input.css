@@ -1,0 +1,19 @@
+.input{
+    padding: 6px 8px;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+
+.small{
+    height: 1.5rem;
+}
+.medium{
+    height: 2rem;
+    font-size: 1.2rem;
+}
+
+.large{
+    height: 2.5rem;
+    font-size: 1.5rem;
+}

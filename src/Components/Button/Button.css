@@ -1,0 +1,27 @@
+.btn{
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 14px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 2px 2px 4px lightgrey;
+    transition: 0.2s ease-in-out;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: 2px 2px 10px lightgrey;
+    transition: 0.2s ease-in-out;
+    border: none;
+}
+.btn:disabled{
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+.primary{
+    background-color: dodgerblue;
+}
+.danger{
+    background-color: #da0707;
+}
